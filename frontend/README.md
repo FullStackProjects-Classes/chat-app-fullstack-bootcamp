@@ -1,49 +1,12 @@
-# Chat Wall – Frontend (React + Vite + MUI)
+# React + Vite
 
-This is the frontend UI for the Chat Wall app, built using:
-- React (via Vite)
-- Material UI (MUI) for styling
-- Fetch API to communicate with Flask backend
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 📁 Directory Structure
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-frontend/ 
-├── src/ 
-│ ├── App.jsx 
-│ └── components/ 
-│ └── MessageCard.jsx 
-├── .env 
-├── Dockerfile 
-└── README.md
+## Expanding the ESLint configuration
 
-
----
-
-## ⚙️ Setup Instructions (Windows)
-
-### 1. Open Command Prompt or VS Code Terminal
-
-Navigate to the `frontend/` folder:
-
-```bash
-cd .\frontend
-
-### 2. Install Node.js (if not already installed)
-Download from https://nodejs.org (LTS version)
-
-Restart terminal after install
-
-### 3. Install Project Dependencies
-npm install
-
-### 4. Create .env file
-notepad .env
-
-update .env file
-VITE_API_URL=http://localhost:5000
-
-### 5. Run Development Server
-
-npm run devS
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
